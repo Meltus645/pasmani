@@ -59,6 +59,16 @@
         bottom:0;
         right:0;
     }
+    .close{
+        color:#fff;
+        display: inline-block;
+        position: absolute;
+        right:.5em;
+        top:.5em;
+    }
+    .close:hover{
+        color:#7c0b0b;
+    }
     header .nav-links li{
         display:block;
     }
