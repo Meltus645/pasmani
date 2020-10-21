@@ -1,3 +1,7 @@
+/*
+credits:https://github.com/Meltus645
+*/
+
 *,
 *::before,
 *::after{
@@ -259,18 +263,4 @@ header .nav-links li a{
 .playstore small{
     font-size: 12px;
     text-transform: uppercase;
-}
-@media (max-width:991px){
-    .custom-shape-divider-bottom-1601042332{
-        display:none;
-    }
-    .girl{
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-    }
-    .header{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 }
