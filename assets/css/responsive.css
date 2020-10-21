@@ -1,0 +1,52 @@
+@media screen and (max-width:768px){
+    header{
+        flex-direction: column;
+        padding:10px;
+    }
+    .page-1,
+    .page-2{
+        padding:10px;
+    }
+    .content{
+        top:1em;
+        margin:auto;
+    }
+    .custom-shape-divider-bottom-1601042332{
+        display:none;
+    }
+    .girl{
+        left:20%;
+        top:30%;
+        height:400px;
+        width:300px;
+        display:none;
+    }
+    .social-media{
+        background:#fff;
+        width:100%;
+        margin:auto;
+        right:0;
+        bottom:0;
+        flex-direction:column;
+        justify-content:center;
+        padding:12px;
+    }
+    .social-media >*{
+        flex:1;
+        text-align:center;
+        width:100%;
+        margin:auto;
+    }
+    .social-media .socia-media-handles{
+        margin-top:1em;
+        justify-content:center;
+    }
+    .flexed{
+        flex-direction:column;
+    }
+    .outline{
+        left: 50%;
+        transform:translateX(-50%)
+    }
+
+}
