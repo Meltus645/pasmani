@@ -1,7 +1,7 @@
 @media screen and (max-width:768px){
     header{
         flex-direction: column;
-        padding:10px;
+        padding:0px;
     }
     .page-1,
     .page-2{
@@ -21,6 +21,22 @@
         width:300px;
         display:none;
     }
+    .content h2{
+        font-size:2em ;
+        letter-spacing: 6px;
+    }
+    .content h3{
+        font-weight:500;
+        font-size:1em ;
+    }
+    .content p{
+        margin:0px;
+        margin-top:5px;
+        font-size:.8em;
+        font-weight:400;
+        width:100%;
+        margin-bottom:20px;
+    }
     .social-media{
         background:#fff;
         width:100%;
@@ -29,7 +45,32 @@
         bottom:0;
         flex-direction:column;
         justify-content:center;
-        padding:12px;
+        padding:8px;
+    }
+    header .nav-links{
+        padding-top:60px;
+        position: fixed;
+        top: 0;
+        background:#0099CB;
+        display:block;
+        left:0;
+        height:100vh;
+        z-index:10;
+        bottom:0;
+        right:0;
+    }
+    header .nav-links li{
+        display:block;
+    }
+    header .nav-links li a{
+        display: block;
+        width:100%;
+        padding:1em .5em;
+        transition:.2s linear;
+    }
+    header .nav-links li a:hover{
+        background: #ffffff;
+        color:#0099CB;
     }
     .social-media >*{
         flex:1;
@@ -47,6 +88,30 @@
     .outline{
         left: 50%;
         transform:translateX(-50%)
+    }
+    .intro-tag{
+        font-size: 2em;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+    .how-to{
+        font-size:1.25em ;
+        font-weight: 500!important;
+        display:block;
+    }
+    .desc{
+        font-size:.85em ;
+        padding:.75em;
+        line-height: 1.5em;
+    }
+    .app-adv{
+        font-size: 1.2em;
+        font-weight: 500;
+        text-align: center;
+    }
+    .steps{
+        font-weight: 400;
+        font-size:.899em;
     }
 
 }
