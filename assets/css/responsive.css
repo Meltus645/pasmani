@@ -1,6 +1,6 @@
 @media screen and (max-width:768px){
     header{
-        padding:0px;
+        padding:10px;
     }
     .page-1,
     .page-2{
@@ -10,6 +10,7 @@
     .content{
         margin:10px auto;
         position:static!important;
+        padding:.5em 10px;
     }
     .page-1{
         flex-direction:column;
@@ -20,6 +21,7 @@
         height:auto;
         display:block;
         margin:2em auto;
+        margin-bottom:2px
     }
     .bars{
         display:inline-block;
